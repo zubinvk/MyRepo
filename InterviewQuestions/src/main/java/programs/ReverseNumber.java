@@ -1,7 +1,9 @@
 package programs;
 
 
-//Reverse a given integer
+//Reverse a given integer logically
+
+
 public class ReverseNumber {
 
 	public static void main(String[] args) {
