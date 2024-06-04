@@ -1,7 +1,9 @@
 package programs;
 
 
-//Find two string are rotation of each other
+//Find two string are rotation of each other 
+//
+
 public class Rotation {
 
 	public static void main(String[] args) {
