@@ -1,9 +1,9 @@
-package questions;
+package programs;
 
 //Sample Input: This@ is an interview$
 //Sample Output: sihT si na weivretni
 
-public class Question1 {
+public class Question3 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
