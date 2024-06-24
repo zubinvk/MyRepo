@@ -29,19 +29,21 @@ public class Question1 {
 	}
 	
 	public static String stringreversal(String s) {
-		String specChar ="!@#$%^&*()?|}{";
+		s = s.replaceAll("[^a-zA-Z\\s]", "");
 		
-		char[] sa1 = s.toCharArray();
-		char[] sa = new char[sa1.length];
-		int count =0;
-		for(char c:sa1) {
-			if(!specChar.contains(String.valueOf(c))){
-				sa[count]=c;
-				count++;
-			}
-		}
+//		String specChar ="!@#$%^&*()?|}{";
 		
-		
+		char[] sa = s.toCharArray();
+//		char[] sa = new char[sa1.length];
+//		int count =0;
+//		for(char c:sa1) {
+//			if(!specChar.contains(String.valueOf(c))){
+//				sa[count]=c;
+//				count++;
+//			}
+//		}
+//		
+//		
 		
 		
 		int len = sa.length;
