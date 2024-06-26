@@ -1,0 +1,183 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-12-08T17:52:22.930Z",
+        "line": 3,
+        "name": "Search A Product",
+        "description": "",
+        "id": "amazon-search;search-a-product",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5185500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I have a search field in the Amazon page",
+            "match": {
+              "location": "StepDefinition.SearchSteps.i_have_a_search_field_in_the_Amazon_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1998300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I search for Product \"Apple MacBook Pro\" and the price 1000",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Apple MacBook Pro\"",
+                  "offset": 21
+                },
+                {
+                  "val": "1000",
+                  "offset": 55
+                }
+              ],
+              "location": "StepDefinition.SearchSteps.i_search_for_Product_and_the_price(java.lang.String,java.lang.Integer)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3000900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Product Name with the \"Apple MacBook Pro\" should be displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Apple MacBook Pro\"",
+                  "offset": 22
+                }
+              ],
+              "location": "StepDefinition.SearchSteps.product_Name_with_the_should_be_displayed(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Amazon Search",
+    "description": "",
+    "id": "amazon-search",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/AppFeatures/Search.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-12-08T17:52:23.081Z",
+        "line": 2,
+        "name": "Booking Cab",
+        "description": "",
+        "id": "uber-booking-feature;booking-cab",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5006700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User wants to select the car type \"Sedan\" From Uber App",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sedan\"",
+                  "offset": 34
+                }
+              ],
+              "location": "StepDefinition.UberBookingSteps.user_wants_to_select_the_car_type_From_Uber_App(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3543600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User selects car \"Sedan\" and pick up point as \"Bangalore\" and drop \"Pune\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sedan\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"Bangalore\"",
+                  "offset": 46
+                },
+                {
+                  "val": "\"Pune\"",
+                  "offset": 67
+                }
+              ],
+              "location": "StepDefinition.UberBookingSteps.user_selects_car_and_pick_up_point_as_and_drop(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1007800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Driver starts the journey",
+            "match": {
+              "location": "StepDefinition.UberBookingSteps.driver_starts_the_journey()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Driver ends the journey",
+            "match": {
+              "location": "StepDefinition.UberBookingSteps.driver_ends_the_journey()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8987300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User Pays 1000 USD",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1000",
+                  "offset": 10
+                }
+              ],
+              "location": "StepDefinition.UberBookingSteps.user_Pays_USD(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Uber Booking Feature",
+    "description": "",
+    "id": "uber-booking-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/AppFeatures/Uber.feature",
+    "tags": []
+  }
+]

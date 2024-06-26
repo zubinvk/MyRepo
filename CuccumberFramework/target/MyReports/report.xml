@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="0.442">
+    <testcase classname="Amazon Search" name="Search A Product" time="0.12">
+        <system-out><![CDATA[Given I have a search field in the Amazon page..............................passed
+When I search for Product "Apple MacBook Pro" and the price 1000............passed
+Then Product Name with the "Apple MacBook Pro" should be displayed..........passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Uber Booking Feature" name="Booking Cab" time="0.03">
+        <system-out><![CDATA[Given User wants to select the car type "Sedan" From Uber App...............passed
+When User selects car "Sedan" and pick up point as "Bangalore" and drop "Pune".passed
+Then Driver starts the journey..............................................passed
+And Driver ends the journey.................................................passed
+Then User Pays 1000 USD.....................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
