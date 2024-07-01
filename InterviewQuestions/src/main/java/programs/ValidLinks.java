@@ -1,4 +1,4 @@
-package com.selenium;
+package programs;
 
 import java.net.CookieHandler;
 import java.net.CookieManager;
@@ -18,7 +18,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class Main {
+public class ValidLinks {
 	public static WebDriver driver;
 	
 	
